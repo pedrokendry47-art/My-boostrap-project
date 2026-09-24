@@ -1,0 +1,74 @@
+.h1{
+    font-family: 'Great Vibes', cursive;
+  font-size: 3.8rem;
+  color: #A85C5C;
+  margin-bottom: 10px;
+}
+.about-hero {
+  padding: 90px 20px 60px;
+  text-align: center;
+  background-color: #FFF5F7;
+}
+
+.about-hero h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.8rem;
+  color: #A85C5C;
+  margin-bottom: 10px;
+}
+
+.about-hero p.tagline {
+  font-family: 'Playfair Display', serif;
+  color: #5C3D3D;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 30px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.about-values {
+  background-color: #FBEAEC;
+  padding: 60px 30px;
+}
+
+.values-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+
+.value-card {
+  background-color: #FFFFFF;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(168,92,92,0.08);
+}
+
+.value-card h3 {
+  font-family: 'Playfair Display', serif;
+  color: #A85C5C;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  font-family: 'Playfair Display', serif;
+  color: #5C3D3D;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
